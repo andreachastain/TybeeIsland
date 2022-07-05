@@ -1,0 +1,225 @@
+.nav-img{
+    border-radius: 50%;
+    font-family: "Sacramento";
+    font-weight: 700;
+    font-size: 100px;
+    margin: 3%;
+}
+
+
+.nav-title{
+    font-family: "Sacramento";
+    font-weight: 700;
+    font-size: 100px;
+    margin: 3%;
+}
+
+/* .box{
+    height: 25px;
+    background-color: lightblue;
+    
+} */
+
+h1{
+    font-family: "Arima";
+    padding-top: 3%;
+}
+
+
+#intro{
+    padding:  3% 0 0 0 ;
+ 
+}
+
+.hide{
+    display: block;
+}
+/* .hide2{
+    display: none;
+} */
+.card{
+    text-align: center;
+    margin-bottom:  37%;
+    color: #005555;
+    
+    
+}
+
+.card .btn{
+    background-color:   #AEDBCE ;
+    color:#635666 
+}
+
+
+#countdown{
+    
+    text-align: right;
+    padding-right: 7%;
+    color: #839AA8;
+
+}
+.heading{
+   text-align: right;
+    font-family: "Arima";
+}
+.restHead{
+    font-family: "Arima";
+    font-weight: 790;
+    font-size: 100px;
+    margin: 3%;
+    text-align: right;
+    color: #AEDBCE;
+  
+}
+
+.restHeadImg{
+    width: 100%;
+}
+
+.fannie{
+    width: 100%;
+  
+    
+}
+
+.fannie2{
+    width: 65%;
+}
+
+
+#mainCard{
+    padding-left: 25%;
+    padding-top: 3%;
+    
+}
+
+.btn .heading{
+    margin: 35%;
+}
+
+.introCopy{
+    font-family: "Sacramento";
+    font-weight: 790;
+    font-size: 50px;
+   text-align: center;
+   margin: 2%;
+    color: #005555;
+  
+}
+
+.text-seating{
+    color: #BF9270;
+}
+
+.beach-text{
+    color: #D885A3;
+    font-family: "Dancing Script";
+    font-weight: 790;
+    font-size: 150px;
+   text-align: center;
+ 
+}
+
+.beach{
+       display: none;
+   
+}
+
+.carousel-inner > .carousel-item  > img {
+    width:640px;
+    height:660px;
+  }
+
+  .paraText{
+    font-family: "Arima";
+    font-size: 22px;
+  }
+  
+  .titleText{
+    font-family: "Sacramento";
+    font-weight: 790;
+    font-size: 100px;
+   text-align: center;
+   margin: 2%;
+  
+  }
+
+  .spacer{
+    padding-top: 3%;
+  }
+
+
+
+  .savannah{
+    display: none;
+
+}
+
+.vrbo{
+    display: none;
+}
+
+.icon{
+    text-align: center;
+   color:#DF7861 ;
+}
+
+.icon:hover{
+    color:#005555;
+    
+}
+
+.iconText{
+    text-align: center;
+    font-family: "Arima";
+    color: #B09B71;
+}
+
+.spacer-bottom{
+    padding-bottom: 3%;
+}
+
+.vrboTitle{
+    text-align: center;
+    font-family: "Sacramento";
+    color: #005555;
+    font-weight: 700;
+    font-size: 60px;
+   
+}
+
+.tybeeEats{
+    display:none;
+}
+
+
+.d-grid{
+    background-color: #AEDBCE;
+    color: #DF7861;
+}
+ .floatbar{
+    background-color: white;
+}
+
+.d-grid:hover{
+    background-color: #DF7861;
+    color: #AEDBCE;
+}
+
+.navibar{
+    background-color: #AEDBCE; 
+    padding:3%;
+    font-size: larger;
+}
+
+.nav-link{
+    font-family: "Arima";
+    text-align: center;
+    margin: 13%;
+}
+
+
+#largeCard{
+    display:none;
+    padding: 0 27%;
+}
