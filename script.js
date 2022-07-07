@@ -29,8 +29,7 @@ let x = setInterval(function() {
   }
 }, 1000);
 
-
-
+let newUpdateMessage = window.alert("Hello, I have been updated. Make sure to check out the added restaurants").style ="color:red"
 
 
 let beachSection = document.querySelector(".beach")
