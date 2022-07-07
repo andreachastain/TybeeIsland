@@ -108,6 +108,13 @@ let crabShackBtn = document.querySelector(".crabShackBtn")
 let cocoBtn = document.querySelector(".cocoBtn")
 let ajBtn = document.querySelector(".ajBtn")
 let pdBtn = document.querySelector(".pdBtn")
+let dBeachBarKitchBtn = document.querySelector(".dBeachBarKitchBtn")
+let sIFbBtn=document.querySelector(".sIFbBtn")
+
+
+
+
+
 
 
 
