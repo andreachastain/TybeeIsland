@@ -199,3 +199,157 @@ pdBtn.addEventListener("click",event=>{
   largeCard.scrollIntoView();
 })
 
+stingBtn.addEventListener("click",event=>{
+  let stngRayText ="Owners “Big Ray” and “Little Ray” know a thing or two about fresh seafood, their menu still boasts fresh catches and exceptional fare. Among the most popular dishes are fish tacos, seared Ahi Tuna with seaweed salad and the larger-than-life Tybee Fisherman’s platter."
+  let stngRayImg = document.querySelector(".stngRayImg").src="https://visittybee.com/sites/default/files/styles/list_fullwidth/public/img_2395.jpg?itok=AGaz-3M5"
+  let stngRayTitle = document.querySelector(".stngRayTitle").innerHTML
+  let stngRayHours = "11am -10pm"
+  let stngRayAddress = "Sting Ray's 1403 Butler Ave, Tybee Island, GA 31328"
+ 
+
+  emtpyImg.src = stngRayImg
+  emtpyText.innerHTML = stngRayText
+  emtpyTitle.innerHTML = stngRayTitle
+  emptyHours.innerHTML = stngRayHours
+  emptyAddress.innerHTML = stngRayAddress
+
+  largeCard.style.display = "block"
+  largeCard.scrollIntoView();
+})
+
+
+
+nbBGBtn.addEventListener("click",event=>{
+  let nbBarGrlText ="Nestled between the light house and the beach, the North Beach Bar and Grill offers an amazing lunch and dinner menu. Eclectic fusion with a Caribbean flair, our menu features local, sustainable seafood and the freshest ingredients. While our chefs create gourmet dishes rivaling the best restaurants in town, we also serve hot dogs, crab cake sandwiches, fish tacos, and wings in our quaint beach shack by the sea."
+  let nbBarGrlImg = document.querySelector(".nbBarGrlImg").src="https://tybeeislandmainstreet.org/wp-content/uploads/2020/11/IMG_3565-1024x768.jpeg"
+  let nbBarGrlTitle = document.querySelector(".nbBarGrlTitle").innerHTML
+  let nbBarGrlHours = "12pm -8pm"
+  let nbBarGrlAddress = "33 Meddin Drive, Tybee Island, GA 31328"
+ 
+
+  emtpyImg.src = nbBarGrlImg
+  emtpyText.innerHTML = nbBarGrlText
+  emtpyTitle.innerHTML = nbBarGrlTitle
+  emptyHours.innerHTML = nbBarGrlHours
+  emptyAddress.innerHTML = nbBarGrlAddress
+
+  largeCard.style.display = "block"
+  largeCard.scrollIntoView();
+})
+
+
+sIFbBtn.addEventListener("click",event=>{
+  let sIFbText ="Closed between 4-4:30 daily."
+  let sIFbImg = document.querySelector(".sIFbImg").src
+  let sIFbTitle = document.querySelector(".sIFbTitle").innerHTML
+  let sIFbHours = "12pm -10pm"
+  let sIFbAddress = "101 Lovell Ave, Tybee Island, GA 31328"
+ 
+
+  emtpyImg.src = sIFbImg
+  emtpyText.innerHTML = sIFbText
+  emtpyTitle.innerHTML = sIFbTitle
+  emptyHours.innerHTML = sIFbHours
+  emptyAddress.innerHTML = sIFbAddress
+
+  largeCard.style.display = "block"
+  largeCard.scrollIntoView();
+})
+
+
+
+dBeachBarKitchBtn.addEventListener("click",event=>{
+  let dBeachBarKitchText ="Pull up a seat on the deck for dinner with a view or brush off the sand after a day on the beach and cool down indoors with a cocktail. Located in the Beachside Colony Resort, The Deck Beach Bar and Kitchen is the only oceanfront restaurant on Tybee Island."
+  let dBeachBarKitchImg = document.querySelector(".dBeachBarKitchImg").src
+  let dBeachBarKitchTitle = document.querySelector(".dBeachBarKitchTitle").innerHTML
+  let dBeachBarKitchHours = "11am - 9pm"
+  let dBeachBarKitchAddress = "404 Butler Ave, Tybee Island, GA 31328"
+ 
+
+  emtpyImg.src = dBeachBarKitchImg
+  emtpyText.innerHTML = dBeachBarKitchText
+  emtpyTitle.innerHTML = dBeachBarKitchTitle
+  emptyHours.innerHTML = dBeachBarKitchHours
+  emptyAddress.innerHTML = dBeachBarKitchAddress
+
+  largeCard.style.display = "block"
+  largeCard.scrollIntoView();
+})
+
+
+
+
+p16Btn.addEventListener("click",event=>{
+  let p16Text ="Our rooftop deck overlooks Tybrisa Street, and the view is breathtaking. Pier 16 seafood restaurant offers a fun casual dining experience, complete with two outdoor decks, and a rooftop bar. The beachy vibes and relaxing atmosphere doesn’t stop there, we also have Cornhole and Giant Jenga for family friendly entertainment."
+  let p16Img = document.querySelector(".p16Img").src
+  let p16Title = document.querySelector(".p16Title").innerHTML
+  let p16Hours = "11am -9pm"
+  let p16Address = "1601 Inlet Ave, Tybee Island, Georgia 31328"
+ 
+
+  emtpyImg.src = p16Img
+  emtpyText.innerHTML = p16Text
+  emtpyTitle.innerHTML = p16Title
+  emptyHours.innerHTML = p16Hours
+  emptyAddress.innerHTML = p16Address
+
+  largeCard.style.display = "block"
+  largeCard.scrollIntoView();
+})
+
+
+sWolfTyBtn.addEventListener("click",event=>{
+  let sWolfTyText ="This seems like a weird place. Menu changes every two weeks and they don't have a phone. They have an interesting vibe."
+  let sWolfTyImg = document.querySelector(".sWolfTyImg").src="https://images.squarespace-cdn.com/content/v1/603ce9f925c288203145edd0/1628630832860-Y32ZAI7YOCG865SOA8S8/_E9A3269.jpg?format=1500w"
+  let sWolfTyTitle = document.querySelector(".sWolfTyTitle").innerHTML
+  let sWolfTyHours = "4pm-12am :Kitchen closes at 10pm"
+  let sWolfTyAddress = "106 S. Campbell Street, Tybee Island, GA 31328"
+ 
+
+  emtpyImg.src = sWolfTyImg
+  emtpyText.innerHTML = sWolfTyText
+  emtpyTitle.innerHTML = sWolfTyTitle
+  emptyHours.innerHTML = sWolfTyHours
+  emptyAddress.innerHTML = sWolfTyAddress
+
+  largeCard.style.display = "block"
+  largeCard.scrollIntoView();
+})
+
+
+
+bubGumBtn.addEventListener("click",event=>{
+  let bubGumText ="Bubba Gumbo's interior is charming and historic. The building, built in the 1940's, reflects the hip sensibilities of Caitlin's taste. All the while also paying tribute to old Tybee's storied past. The indoor-outdoor dining area offers the choice to observe wildlife through the lens of our marsh bar or hang out in the atmospheric dining room."
+  let bubGumImg = document.querySelector(".bubGumImg").src="https://images.squarespace-cdn.com/content/v1/59823d33f14aa16625404d13/1605376625009-G808DOMRYZK6RO0O22ZO/image0.jpeg?format=2500w"
+  let bubGumTitle = document.querySelector(".bubGumTitle").innerHTML
+  let bubGumHours = "3pm-9pm M-Th / 12-9 F-Su"
+  let bubGumAddress = "1 Old Tybee Rd at Tybee Island Marin"
+ 
+
+  emtpyImg.src = bubGumImg
+  emtpyText.innerHTML = bubGumText
+  emtpyTitle.innerHTML = bubGumTitle
+  emptyHours.innerHTML = bubGumHours
+  emptyAddress.innerHTML = bubGumAddress
+
+  largeCard.style.display = "block"
+  largeCard.scrollIntoView();
+})
+
+fanniesBtn.addEventListener("click",event=>{
+  let fanniesText ="It has a fun atmosphere and the staff is friendly! Serving Lunch and Dinner 7 days a week and on the weekends live music on the second floor."
+  let fanniesImg = document.querySelector(".fanniesImg").src
+  let fanniesTitle = document.querySelector(".fanniesTitle").innerHTML
+  let fanniesHours = "11am-9pm Wed / 10pm Fri-Sun"
+  let fanniesAddress = "1613 Strand Ave, Tybee Island, GA 31328"
+ 
+
+  emtpyImg.src = fanniesImg
+  emtpyText.innerHTML = fanniesText
+  emtpyTitle.innerHTML = fanniesTitle
+  emptyHours.innerHTML = fanniesHours
+  emptyAddress.innerHTML = fanniesAddress
+
+  largeCard.style.display = "block"
+  largeCard.scrollIntoView();
+})
