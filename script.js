@@ -37,6 +37,14 @@ let beachSection = document.querySelector(".beach")
 let beachBtn = document.querySelector(".beachBtn")
 let savannahSection = document.querySelector(".savannah")
 let savannahBtn = document.querySelector(".savannahBtn")
+let stingBtn = document.querySelector(".stingBtn")
+let nbBGBtn = document.querySelector(".nbBGBtn")
+let p16Btn = document.querySelector(".p16Btn")
+let sWolfTyBtn = document.querySelector(".sWolfTyBtn")
+let bubGumBtn = document.querySelector(".bubGumBtn")
+let fanniesBtn= document.querySelector(".fanniesBtn")
+
+
 // let hide= document.querySelectorAll(".hide")
 // console.log(hide)
 

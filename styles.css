@@ -223,3 +223,19 @@ h1{
     display:none;
     padding: 0 27%;
 }
+
+
+
+
+.tybeeEats .btn{
+    background-color: #DF7861;
+    width: 50%;
+    color:#005555;
+    margin: 7% 25%;
+    font-family: "Arima";
+}
+
+.tybeeEats .btn:hover{
+   background-color:#005555; ; 
+   color: #DF7861;
+}
