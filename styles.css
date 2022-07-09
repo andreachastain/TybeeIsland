@@ -240,3 +240,39 @@ h1{
    background-color:#005555; ; 
    color: #DF7861;
 }
+.exploreImg{
+    width: 340px;
+    height: 340px;
+    /* border-radius: 100%; */
+    padding: 3%;
+
+}
+
+.exploreImg:hover{
+    border-radius: 100%;
+}
+
+
+#explore{
+    /* background-color: #DF7861; */
+    color:#005555;
+    
+    font-family: "Arima";
+    font-weight: 600;
+}
+
+.explore{
+    display: none;
+}
+
+.beachFeaturette{
+    display:none;
+}
+
+.toursFeaturette{
+    display:none
+}
+
+.xpRentSection{
+    display:none;
+}

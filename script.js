@@ -29,11 +29,11 @@ let x = setInterval(function() {
   }
 }, 1000);
 
-let newUpdateMessage = window.alert("Hello, I have been updated. Make sure to check out the added restaurants")
+// let newUpdateMessage = window.alert("Hello, I have been updated. Make sure to check out the added restaurants")
 
 
-let beachSection = document.querySelector(".beach")
-let beachBtn = document.querySelector(".beachBtn")
+// let exploreSection = document.querySelector(".beach")
+let beachBtn = document.querySelector(".xpBeach")
 let savannahSection = document.querySelector(".savannah")
 let savannahBtn = document.querySelector(".savannahBtn")
 let stingBtn = document.querySelector(".stingBtn")
@@ -42,10 +42,18 @@ let p16Btn = document.querySelector(".p16Btn")
 let sWolfTyBtn = document.querySelector(".sWolfTyBtn")
 let bubGumBtn = document.querySelector(".bubGumBtn")
 let fanniesBtn= document.querySelector(".fanniesBtn")
+let exploreBtn = document.querySelector(".exploreBtn")
+let exploreSection = document.querySelector(".explore")
+let beachFeaturette = document.querySelector(".beachFeaturette")
+let xpToursBtn = document.querySelector(".xpTours")
+let toursFeaturette = document.querySelector(".toursFeaturette")
+let xpRentBtn = document.querySelector(".xpRent")
+let xpRentSection = document.querySelector(".xpRentSection")
+
 
 
 // let hide= document.querySelectorAll(".hide")
-// console.log(hide)
+console.log(beachFeaturette)
 
 
 
@@ -55,25 +63,17 @@ let tybeeEatSection = document.querySelector(".tybeeEats")
 let tbyeeEatBtn = document.querySelector(".tbyeEatsBtn")
 
 
-beachBtn.addEventListener("click",function(){
-  savannahSection.style.display ="none";
-  vrboSection.style.display="none";
-  tybeeEatSection.style.display="none";
-  largeCard.style.display = "none"
-  
-  beachSection.style.display="block";
-  beachSection.scrollIntoView();
-})
 
-console.log(beachBtn)
+// console.log(beachBtn)
 
 
 
 savannahBtn.addEventListener("click",function(){
-  beachSection.style.display="none"
+  exploreSection.style.display="none"
   vrboSection.style.display="none"
   savannahSection.style.display="block"
   tybeeEatSection.style.display="none"
+  largeCard.style.display = "none"
   savannahSection.scrollIntoView();
 })
 
@@ -82,7 +82,7 @@ savannahBtn.addEventListener("click",function(){
 
 
 vrboBtn.addEventListener("click",function(){
-  beachSection.style.display="none"
+  exploreSection.style.display="none"
   savannahSection.style.display="none"
   tybeeEatSection.style.display="none"
   // hide.style.display="none"
@@ -94,15 +94,32 @@ vrboBtn.addEventListener("click",function(){
 console.log(vrboSection)
 
 tbyeeEatBtn.addEventListener("click",function(){
-  beachSection.style.display="none"
+  exploreSection.style.display=""
   savannahSection.style.display="none"
   vrboSection.style.display="none"
   tybeeEatSection.style.display="block"
-
+  largeCard.style.display = "none"
+  beachFeaturette.style.display= "none"
   tybeeEatSection.scrollIntoView();
 })
 
 console.log(vrboSection)
+
+
+exploreBtn.addEventListener("click",function(){
+  savannahSection.style.display ="none";
+  vrboSection.style.display="none";
+  tybeeEatSection.style.display="none";
+  largeCard.style.display = "none"
+  
+  
+  exploreSection.style.display="block";
+  exploreSection.scrollIntoView();
+})
+
+
+
+
 
 // let emptyMenu = document.querySelector(".emptyMenu").href
 // let crabShackText = document.querySelector(".crabShackText").innerHTML
@@ -367,3 +384,43 @@ fanniesBtn.addEventListener("click",event=>{
   largeCard.style.display = "block"
   largeCard.scrollIntoView();
 })
+
+
+beachBtn.addEventListener("click",event=>{
+  beachFeaturette.style.display = "block";
+  toursFeaturette.style.display = ""
+  console.log("Click'd beaches")
+  beachFeaturette.scrollIntoView();
+  xpRentSection.style.display =""
+})
+
+// exploreBtn.addEventListener("click",function(){
+//   savannahSection.style.display ="none";
+//   vrboSection.style.display="none";
+//   tybeeEatSection.style.display="none";
+//   largeCard.style.display = "none"
+  
+//   exploreSection.style.display="block";
+//   exploreSection.scrollIntoView();
+// })
+
+xpToursBtn.addEventListener("click",event=>{
+  beachFeaturette.style.display = ""
+  toursFeaturette.style.display = "block"
+  xpRentSection.style.display =""
+  toursFeaturette.scrollIntoView();
+  console.log(toursFeaturette)
+})
+
+xpRentBtn.addEventListener("click",event=>{
+  console.log(`i am a button for xp rent`)
+  savannahSection.style.display ="none";
+  vrboSection.style.display="none";
+  tybeeEatSection.style.display="none";
+  largeCard.style.display = "none"
+ toursFeaturette.style.display="";
+
+  xpRentSection.style.display ="block"
+  exploreSection.scrollIntoView();
+})
+
