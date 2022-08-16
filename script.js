@@ -232,7 +232,7 @@ pdBtn.addEventListener("click",event=>{
 
 stingBtn.addEventListener("click",event=>{
   let stngRayText ="Owners “Big Ray” and “Little Ray” know a thing or two about fresh seafood, their menu still boasts fresh catches and exceptional fare. Among the most popular dishes are fish tacos, seared Ahi Tuna with seaweed salad and the larger-than-life Tybee Fisherman’s platter."
-  let stngRayImg = document.querySelector(".stngRayImg").src="https://visittybee.com/sites/default/files/styles/list_fullwidth/public/img_2395.jpg?itok=AGaz-3M5"
+  let stngRayImg = document.querySelector(".stngRayImg").src="https://assets.website-files.com/5e2ce82cd2e0674b6cacdecb/5e82c021cf9bc28ac64691d2_1200%20by%20800-p-800.png"
   let stngRayTitle = document.querySelector(".stngRayTitle").innerHTML
   let stngRayHours = "11am -10pm"
   let stngRayAddress = "Sting Ray's 1403 Butler Ave, Tybee Island, GA 31328"
@@ -331,7 +331,7 @@ p16Btn.addEventListener("click",event=>{
 
 sWolfTyBtn.addEventListener("click",event=>{
   let sWolfTyText ="This seems like a weird place. Menu changes every two weeks and they don't have a phone. They have an interesting vibe."
-  let sWolfTyImg = document.querySelector(".sWolfTyImg").src="https://images.squarespace-cdn.com/content/v1/603ce9f925c288203145edd0/1628630832860-Y32ZAI7YOCG865SOA8S8/_E9A3269.jpg?format=1500w"
+  let sWolfTyImg = document.querySelector(".sWolfTyImg").src="https://i0.wp.com/scoutsavannah.com/wp-content/uploads/2020/09/SeaWolf.jpg?resize=800%2C600&ssl=1"
   let sWolfTyTitle = document.querySelector(".sWolfTyTitle").innerHTML
   let sWolfTyHours = "4pm-12am :Kitchen closes at 10pm"
   let sWolfTyAddress = "106 S. Campbell Street, Tybee Island, GA 31328"
@@ -351,10 +351,11 @@ sWolfTyBtn.addEventListener("click",event=>{
 
 bubGumBtn.addEventListener("click",event=>{
   let bubGumText ="Bubba Gumbo's interior is charming and historic. The building, built in the 1940's, reflects the hip sensibilities of Caitlin's taste. All the while also paying tribute to old Tybee's storied past. The indoor-outdoor dining area offers the choice to observe wildlife through the lens of our marsh bar or hang out in the atmospheric dining room."
-  let bubGumImg = document.querySelector(".bubGumImg").src="https://images.squarespace-cdn.com/content/v1/59823d33f14aa16625404d13/1605376625009-G808DOMRYZK6RO0O22ZO/image0.jpeg?format=2500w"
+  let bubGumImg = document.querySelector(".bubGumImg").src="https://img-aws.ehowcdn.com/700x/cdn.onlyinyourstate.com/wp-content/uploads/2017/06/o-30-700x525-1-700x525.jpg"
   let bubGumTitle = document.querySelector(".bubGumTitle").innerHTML
   let bubGumHours = "3pm-9pm M-Th / 12-9 F-Su"
   let bubGumAddress = "1 Old Tybee Rd at Tybee Island Marin"
+  // $(".bubGumImg").attr("src", "https://img-aws.ehowcdn.com/700x/cdn.onlyinyourstate.com/wp-content/uploads/2017/06/o-30-700x525-1-700x525.jpg")
  
 
   emtpyImg.src = bubGumImg
@@ -392,6 +393,7 @@ beachBtn.addEventListener("click",event=>{
   console.log("Click'd beaches")
   beachFeaturette.scrollIntoView();
   xpRentSection.style.display =""
+
 })
 
 // exploreBtn.addEventListener("click",function(){
@@ -410,6 +412,7 @@ xpToursBtn.addEventListener("click",event=>{
   xpRentSection.style.display =""
   toursFeaturette.scrollIntoView();
   console.log(toursFeaturette)
+ 
 })
 
 xpRentBtn.addEventListener("click",event=>{
@@ -423,4 +426,21 @@ xpRentBtn.addEventListener("click",event=>{
   xpRentSection.style.display ="block"
   exploreSection.scrollIntoView();
 })
+
+$(".xpRent").click(function(){
+  $(".beachFeaturette ,.toursFeaturette").hide()
+})
+
+$(".savannahBtn, .vrboBtn, .tbyeEatsBtn").click(function(){
+  $(".beachFeaturette ,.toursFeaturette,.xpRentSection").hide()
+})
+
+// $(".tybeeEats").click(function(){
+//   $this.fadeIn(4000)})
+// 
+
+// $(".nav-img").hide()
+
+
+
 

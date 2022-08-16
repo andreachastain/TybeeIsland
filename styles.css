@@ -20,6 +20,20 @@
     
 } */
 
+.parallax {
+    /* The image used */
+    background-image: url("https://visittybee.com/sites/default/files/styles/hero/public/jacob_hale46-instagram-837-ig-17922116596663176.jpg?itok=lWsDcf81");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 h1{
     font-family: "Arima";
     padding-top: 3%;
@@ -30,6 +44,9 @@ h1{
     padding:  3% 0 0 0 ;
  
 }
+
+
+
 
 .hide{
     display: block;
@@ -105,6 +122,9 @@ h1{
    margin: 2%;
     color: #005555;
   
+}
+.introCopy:hover{
+    font-size: 100px;
 }
 
 .text-seating{
@@ -275,4 +295,8 @@ h1{
 
 .xpRentSection{
     display:none;
+}
+
+.spacer2{
+    margin-top: 7%;
 }
