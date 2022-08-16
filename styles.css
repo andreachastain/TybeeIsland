@@ -123,8 +123,8 @@ h1{
     color: #005555;
   
 }
-.introCopy:hover{
-    font-size: 100px;
+#countdown:hover{
+    font-size: 50px;
 }
 
 .text-seating{
