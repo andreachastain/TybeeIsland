@@ -443,4 +443,25 @@ $(".savannahBtn, .vrboBtn, .tbyeEatsBtn").click(function(){
 
 
 
+$(".vrboBtn").click(function(){
+  $(".parallax").css("background-image", "url('images/moonwater.jpg')")
+  console.log("vrboBtn clicked")
+  
+})
 
+
+$(".exploreBtn").click(function(){
+  $(".parallax").css("background-image", "url('images/tybee-island.jpeg')")
+  console.log("vrboBtn clicked")
+})
+
+$(".savannahBtn").click(function(){
+  $(".parallax").css("background-image", "url('images/savanna btn.jpg')")
+  $(".introCopy").html("Historic Savannah")
+  console.log("vrboBtn clicked")
+})
+
+
+ $(".vrboBtn, .exploreBtn, .tbyeEatsBtn").click(function(){
+  $(".introCopy").html("Tybee Island - The Jewel Of Georgia")
+ })

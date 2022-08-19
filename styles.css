@@ -6,7 +6,6 @@
     margin: 3%;
 }
 
-
 .nav-title{
     font-family: "Sacramento";
     font-weight: 700;
@@ -20,9 +19,14 @@
     
 } */
 
+.parallaxVrbo{
+    /* The image used */
+    background-image: url("images/moonwater.jpg");
+  
+}
 .parallax {
     /* The image used */
-    background-image: url("https://visittybee.com/sites/default/files/styles/hero/public/jacob_hale46-instagram-837-ig-17922116596663176.jpg?itok=lWsDcf81");
+    background-image: url("images/33769-Tybee-Islandlighthouse.jpg");
   
     /* Set a specific height */
     min-height: 500px;
