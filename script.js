@@ -465,3 +465,5 @@ $(".savannahBtn").click(function(){
  $(".vrboBtn, .exploreBtn, .tbyeEatsBtn").click(function(){
   $(".introCopy").html("Tybee Island - The Jewel Of Georgia")
  })
+
+ 
